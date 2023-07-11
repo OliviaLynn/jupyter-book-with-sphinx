@@ -25,5 +25,6 @@ jobs:
           
       - name: Build book HTML 
         run: |
+          jupyter-book toc from-project .
           jupyter-book build .
           
